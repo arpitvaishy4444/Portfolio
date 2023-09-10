@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+body{
+    margin: 0px;
+}
+*{
+    scroll-behavior: smooth;
+}
+/* body-header */
+#body-header{
+    background-image: url('https://images.pexels.com/photos/159643/laptop-ipad-organic-natural-159643.jpeg');
+   height: 75vh;
+   width: 98.9vw;
+   background-size: cover;
+   background-position: center;
+   opacity: 0.9;
+   background-attachment: fixed;
+}
+/* horizontal list */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+nav li{
+    font-size: 1.5rem;
+}
+.horizontal-list li{
+    display: inline-block;
+   margin: 0vw 2vw 2vw 0vw;
+}
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu li a:hover{
+    color: rgb(239, 221, 197);
+   border-bottom: 1px solid rgb(239, 221, 197);
+}
+.text-center{
+    text-align: center;
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+#name-social-container h1{
+    margin-top: -40px;
+    transition: all 0.5s;
+}
+#name-social-container h1:hover{
+    transform: scale(1.1);
+
+}
+#my-name{
+    color: white;
+    font-size: 4rem;
+    font-family: roboto 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icon li a i{
+    padding: 10px;
+    border-radius: 50%;
+   
+  
+}
+.social-icon li a i:hover{
+   box-shadow: 0px 0px 6px 6px rgb(102, 82, 82);
+}
+/* About section */
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: rgb(238, 228, 228);
+}
+#my-image{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -16vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px rgb(176, 146, 146);
+    border: 2px solid rgb(250, 250, 250);
+    transition: all 0.5s;
+    margin-top: -10vh;
+} 
+#my-image img:hover{
+transform: scale(1.2);
+}
+section{
+    flex-direction: column;
+}
+
+/* skills section */
+#skills{
+    height: auto;
+    display: flex;
+    margin: auto;
+    background-color: rgba(126, 108, 108, 0.856);
+    transition: all 0.5s;
+
+}
+#skills:hover{
+    transform: translateY(-4px);
+
+}
+#skills h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skills h1 img{
+    height: 5rem;
+    margin-top: ;
+}
+.skill-box{
+    height: 24vh ;
+    display: flex;
+    /* margin-top: -40px; */
+    display: flex;
+    justify-content:space-evenly;
+}
+.skill-display{
+    background-color: rgb(14, 12, 12);
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    /* margin: auto; */
+    display: flex;
+    border: 0.5px solid white ;
+    transition: all 0.5s;
+}
+.skill-display:hover{
+    transform: scale(1.2);
+    background-color: rgb(40, 30, 30);
+    box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
+    border: none;
+
+}
+.skill-display p{
+    color: white;
+    margin: auto;
+}
+
+/* education section */
+#education{
+    
+    transition: all 0.5s;
+    height: auto;
+    background-color:rgb(238, 228, 228);
+
+}
+#education:hover{
+    transform: translateY(-10px);
+}
+#education div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#education img{
+    height: 7rem;
+}
+
+#education h1{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(24, 23, 23, 0.856);
+    border-radius: 4px;
+}
+.timeline-box{
+    position: relative;
+    left: 5%;
+    width: 40%;
+    min-height: 150px;
+    border: 1px solid rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(216, 199, 199)90%,rgb(41, 28, 28));
+    border-radius: 20px;
+  transition: all 0.5s;
+}
+.timeline-box:nth-child(2n){
+    left: 54%;
+}
+.timeline-box:hover{
+    transform: scale(1.05);
+}
+.timeline-box h2{
+    margin-top: -0.5px;
+    font-weight: 100;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timeline-box h3{
+    margin-top: -30px;
+}
+.timeline-box p{
+    padding: 20px;
+    margin-top: -10px;
+    word-spacing: 2px;
+   
+}
+.timeline-divider{
+    position: absolute;
+    height: 70%;
+    width: 0px;
+    border: 2px dashed rgb(196, 173, 173);
+    top: 13%;
+    left: 50%;  
+}
+/* project section */
+
+#projects{
+    height: 40vh;
+    width: 100vw;
+    transition: all 0.5s;
+}
+#projects:hover{
+    transform: translateY(-5px);
+}
+.project-container{
+    display: flex;
+    background-color: antiquewhite;
+}
+.project-header{
+    display: flex;
+    justify-content: center ;
+}
+.project-header img{
+    height: 8rem;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#project-main{
+    background-color: rgb(234, 221, 221);
+    width: 70vw;
+    height: auto;
+}
+.project-report {
+    background-image: linear-gradient(to right,rgb(189, 115, 115),blue);
+    width: 70vw;
+    color: white;
+    max-height: 65px;
+    border-radius: 0px 30px 30px 0px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;;
+    border-right: 0.5px solid white;
+}
+.project-report:hover{
+    background-image: linear-gradient(to right,rgb(0, 0, 0),blue 80%);
+
+}
+.project-report h2{
+    margin-left: 20px;
+}   
+.shocking img{
+    width: 28.9vw;
+    height: 29rem;
+}   
+
+/* contact section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    background-image: linear-gradient(to bottom, rgba(179, 167, 194, 0.637),rgb(28, 26, 26));
+
+}
+
+.contact-header{
+    color: rgb(0, 0, 0);
+    margin-top: 24rem;
+    display: flex;
+   justify-content: center;
+
+}
+.contact-header img{
+    height: 8rem;
+    margin-top: 1.5rem;
+    color: white;
+    
+}
+.contact-header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+
+}
+.contact-main{
+    height: 45vh;
+   display: flex;
+   flex-direction: row;
+
+}
+.box1{
+   
+    height: 99%;
+    width: 60%;
+    display: flex;
+}
+.box1 img{
+    animation-name: myanimation;
+   animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes myanimation{
+    from{
+        height: 260px;
+    }
+    to{
+        height: 300px;
+
+    }
+}
+.part1{
+    width: 58%;
+    text-align: center;
+}
+.part1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.box2{
+
+    height: 100%;
+    width: 35%;
+    display: flex;
+}
+.box2>div{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,rgb(24, 21, 21),rgb(76, 68, 68));
+    box-shadow: 4px 8px 4px 4px;
+    transition: all 1s;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2>div:hover{
+    cursor: pointer;    
+    transform:translateX(-330px)translateY(-60px) scale(1.5);
+}
+.details{
+    border: 1px solid black;
+    background-color: rgba(188, 178, 165, 0.868);
+    border-radius: 30px;
+    height: 40px;
+    width: 90%;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    color: rgb(67, 60, 60);
+}
+.details:hover{
+    transform:scale(1.06);
+    border: 1px solid white;
+   background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+.details img{
+    height: 30px;
+    margin-left: 10px;
+}
+.details h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    margin-left: 6px;
+    font-size: 1rem ;
+}
